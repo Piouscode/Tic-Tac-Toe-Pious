@@ -30,6 +30,8 @@ This game does not have a backend and does not rely on any frameworks (e.g. Reac
 
 ## Author
 
-[Pious Alpha]
+**Pious Alpha**
+
+Demo: https://piouscode.github.io/Tic-Tac-Toe-Pious/
 
 ![Screenshot 2022-12-17 at 21 55 35](https://user-images.githubusercontent.com/102190049/208265813-c117acb1-74fe-4533-9597-aacc35b65990.png)
