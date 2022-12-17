@@ -1,0 +1,88 @@
+h1 {
+    text-align: center; /* center the title */
+    width: 100%; /* set the width to 100% of the viewport width */
+    margin-top: 20vh;
+}
+
+#board {
+    margin: 0 auto; /* center the table element */
+    border: 1px solid black; /* add a border to the board */
+    background-color: white; /* give the board a color */
+    position: absolute; /* position the element absolutely */
+    top: 50%; /* position the top edge 50% down from the top edge of the viewport */
+    left: 50%; /* position the left edge 50% to the right of the left edge of the viewport */
+    transform: translate(-50%, -50%); /* move the element up and left by 50% of its own width and height */
+}
+
+button {
+    margin: 0 auto; /* center the button */
+    display: block; /* display the button as a block element */
+    margin-top: 10vh; /* add some space above the button */
+}
+
+#board td {
+    width: 50px;
+    height: 50px;
+    text-align: center; /* center the symbol within the cell */
+    vertical-align: middle;
+    font-size: 40px; /* increase the font size of the symbol */
+    border: 1px solid black; /* add a border to the cells */
+    cursor: pointer;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#status {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+#reset-button {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#board {*/
+/*    border: 1px solid black;  !* Add a border to the board *!*/
+/*}*/
+
+/*#board td {*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    text-align: center;  !* Center the symbol within the cell *!*/
+/*    vertical-align: middle;*/
+/*    font-size: 40px;  !* Increase the font size of the symbol *!*/
+/*    border: 1px solid black;  !* Add a border to the cells *!*/
+/*}*/
+
+/*.cell {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    font-size: 48px;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*#status {*/
+/*    margin-top: 20px;*/
+/*    font-size: 24px;*/
+/*}*/
